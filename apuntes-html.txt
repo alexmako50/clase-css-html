@@ -15,7 +15,8 @@ Etiquetas
     <link> --> conecta el documento con otro recurso
     <img src="direccion-imagen"/> --> agrega una imagen al documento
 Atributos
-    -
+    - href="link" --> se usa para colocar la direccion de donde se va a tomar la informacion
+    - rel="nombre" --> indica al navegador a que hace referencia el archivo
 Entidades: secuencias de caracteres que se usan para representar caracteres que HTML normalmente no puede procesar
     Empiezan con & y terminan con ;
     - nbsp = "new blank space" = barra espaciadora
