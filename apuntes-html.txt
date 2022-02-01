@@ -1,0 +1,24 @@
+Datos de interes
+    - Los textos en HTML solo toman un espacio y no toman los saltos de linea hechos con enter
+    - se puede colocar etiquetas que se abren y se cierran a si mismas (EJ: <img/>)
+    - Las etiquetas tienen atributos (ej: <img src="url"/>)
+    - margen --> separacion entre elementos
+    - las etiquetas pueden ser elementos en linea o en bloque
+        en linea --> no ocupan la linea entera
+        en bloque --> ocupan el bloque entero, la linea entera
+Etiquetas
+    <!DOCTYPE> --> indica el tipo de documento con el que se trabaja, para pueda ser analizado, por ejemplo, por google
+    <h1> --> se refiere al titulo
+        <h2>, <h3>, .. --> son los subtitulos y los que le siguen a estos
+    <p> --> se refiere al parrafo
+    <strong> --> coloca lo que entre entre el medio en negrita
+    <link> --> conecta el documento con otro recurso
+    <img src="direccion-imagen"/> --> agrega una imagen al documento
+Atributos
+    -
+Entidades: secuencias de caracteres que se usan para representar caracteres que HTML normalmente no puede procesar
+    Empiezan con & y terminan con ;
+    - nbsp = "new blank space" = barra espaciadora
+    - lt = "lower than" = "<"
+    - gt = "greater than" = ">"
+
