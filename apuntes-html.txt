@@ -17,6 +17,9 @@ Etiquetas
 Atributos
     - href="link" --> se usa para colocar la direccion de donde se va a tomar la informacion
     - rel="nombre" --> indica al navegador a que hace referencia el archivo
+    - id="nombre-identificador" --> establece un id para el elemento
+        el nombre no puede llevar espacios
+    - class="nombre-clase" --> establece un mismo identificador para un grupo de elementos
 Entidades: secuencias de caracteres que se usan para representar caracteres que HTML normalmente no puede procesar
     Empiezan con & y terminan con ;
     - nbsp = "new blank space" = barra espaciadora

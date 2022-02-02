@@ -1,0 +1,17 @@
+Ejemplo estructura css
+    h1,h2 {
+        color : red;
+    }
+Dar estilo a etiquetas
+    - Segun el tipo de elemento  --> se coloca el nombre de la etiqueta --> h1{} body{} p{} 
+    - Por identificador --> se coloca un hashtag y el nombre del identificador --> #nombre-identificador{}
+    - Por clase --> se coloca un "." y el nombre de la clase --> .nombre-clase{}
+    Los cambios hechos por identificador tienen mas prioridad que los de clase, y estos tienen mas prioridad que los del tipo
+Atributos
+    color: "color o codigo hexadecimal (#000000)" --> configura el color
+    font-size: "numero"px --> afecta al tamaño de la fuente
+    font-weight: "tipo-ya-definido (bold, normal)" --> afecta al grosor de la fuente
+    letter-spacing: "numero"px --> es el espaciado entre las letras
+    font-style: "tipo-ya-definido (italic=cursiva)" --> afecta al estilo de la fuente
+    font-family: "tipo-ya-definido (serif)" --> cambia el tipo de letras
+
