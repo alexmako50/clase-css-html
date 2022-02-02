@@ -14,4 +14,6 @@ Atributos
     letter-spacing: "numero"px --> es el espaciado entre las letras
     font-style: "tipo-ya-definido (italic=cursiva)" --> afecta al estilo de la fuente
     font-family: "tipo-ya-definido (serif)" --> cambia el tipo de letras
+    background: "color o codigo hexadecimal" --> color del fondo
+    
 
