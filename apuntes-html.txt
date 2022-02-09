@@ -6,24 +6,35 @@ Datos de interes
     - las etiquetas pueden ser elementos en linea o en bloque
         en linea --> no ocupan la linea entera
         en bloque --> ocupan el bloque entero, la linea entera
+    - existen entidades para representar los caracteres que html no reconoceria normalmente
+        EJ: mas de un espacio, saltos de lineas, <, >
 Etiquetas
     <!DOCTYPE> --> indica el tipo de documento con el que se trabaja, para pueda ser analizado, por ejemplo, por google
+    <html> --> indica el principio y el final de un documento html
+    <head> --> encabezado de la pagina, es donde se indica la informacion de ella
+    <body> --> cuerpo de la pagina, es donde va el contenido de la pagina
+    <meta charset="utf-8"> --> le indica al navegador en que formato se van a ejecutar los caracteres de la pagina
+    <title> -->  indica el titulo de la pagina (lo que aparece en la pestaña)
     <h1> --> se refiere al titulo
         <h2>, <h3>, .. --> son los subtitulos y los que le siguen a estos
     <p> --> se refiere al parrafo
     <strong> --> coloca lo que entre entre el medio en negrita
-    <link> --> conecta el documento con otro recurso
-    <img src="direccion-imagen"/> --> agrega una imagen al documento
-    <div> --> se usa para dividir la pagina en sectores
+    <ul> --> unordened list, indica el sector donde estara la lista desordenada
+    <li> --> list item, elemento de la lista
 Atributos
     - href="link" --> se usa para colocar la direccion de donde se va a tomar la informacion
     - rel="nombre" --> indica al navegador a que hace referencia el archivo
     - id="nombre-identificador" --> establece un id para el elemento
         el nombre no puede llevar espacios
     - class="nombre-clase" --> establece un mismo identificador para un grupo de elementos
+    - type="tipo (text, email, submit)" --> define el tipo de etiqueta, si es posible
+    - name="nombre" --> nombre del elemento, necesario en los input para identificarlos en backend
+    - for="nombre-identificador" --> enlaza el elemento con otro (usado en <label> para el <input>)
+    - value="nombre" --> nombre a mostrar dentro del elemento (se usa en <input>)
+    - cellspacing="valor" --> cambia el espaciado entre las celdas en <table>
 Entidades: secuencias de caracteres que se usan para representar caracteres que HTML normalmente no puede procesar
     Empiezan con & y terminan con ;
     - nbsp = "new blank space" = barra espaciadora
     - lt = "lower than" = "<"
     - gt = "greater than" = ">"
-
+    

@@ -2,18 +2,49 @@ Ejemplo estructura css
     h1,h2 {
         color : red;
     }
-Dar estilo a etiquetas
+Dar estilo a etiquetas, tipos de selectores
     - Segun el tipo de elemento  --> se coloca el nombre de la etiqueta --> h1{} body{} p{} 
     - Por identificador --> se coloca un hashtag y el nombre del identificador --> #nombre-identificador{}
     - Por clase --> se coloca un "." y el nombre de la clase --> .nombre-clase{}
-    Los cambios hechos por identificador tienen mas prioridad que los de clase, y estos tienen mas prioridad que los del tipo
-Atributos
-    color: "color o codigo hexadecimal (#000000)" --> configura el color
-    font-size: "numero"px --> afecta al tamaño de la fuente
+    .Los cambios hechos por identificador tienen mas prioridad que los de clase, y estos tienen mas prioridad que los del tipo
+    - Se pueden combinar para modificar elementos que esten dentro de otros (EJ: #nombre-identificador h1) --> modifica todos los h1 dentro de "identificador"
+        En el caso del ejemplo, seria el de mayor prioridad, ya que empieza por un identificador (#nombre-identificador)
+    - Se puede diferenciar un marcador de otro utilizando los atributos del HTML
+        Por ejemplo: form [type=text] --> modifica en form y lo que este dentro toda etiqueta con el atributo type=text
+
+
+Atributos, propiedades
+    color: "color o codigo hexadecimal (#000000)" --> configura el color del texto
+    font-size: "cantidad" --> afecta al tamaño de la fuente
     font-weight: "tipo-ya-definido (bold, normal)" --> afecta al grosor de la fuente
-    letter-spacing: "numero"px --> es el espaciado entre las letras
+    letter-spacing: "cantidad" --> es el espaciado entre las letras
     font-style: "tipo-ya-definido (italic=cursiva)" --> afecta al estilo de la fuente
     font-family: "tipo-ya-definido (serif)" --> cambia el tipo de letras
     background: "color o codigo hexadecimal" --> color del fondo
-    
-
+    padding: "cantidad" --> margen interior
+    float: "left o right" --> ubica los elementos uno al lado del otro, de izquierda a derecha o al reves
+    overflow: hidden --> se utiliza para que el elemento padre contenga bien a los hijos, en caso de que no lo haga
+    text-decoration: "tipo-ya-definido (none,underline)" --> modifica las decoraciones del texto (subrayado, por ejemplo)
+    width: "cantidad" --> modifica el ancho
+    display: "tipo (block)" --> cambia el tipo de posicionamiento del elemento (EJ: block, en bloque, ocupa toda la linea)
+    margin-bottom: "cantidad" --> margen inferior
+    border: "cantidad" --> modifica el tamaño del borde
+    clear: "tipo (both)" --> define que lados del elemento se quiere que esten limpios (que no haya ningun otro elemento)
+    border-bottom: "cantidad" --> modifica el grosor del borde de debajo
+Otros consejos:
+    - las cantidades se pueden medir en:
+        pixeles: px
+        porcentaje: % --> cambia segun el tamaño de la pagina
+    - los valores hexadecimales si son todos iguales, se pueden colocar 3 en vez de 6
+    - respecto a los valores numericos de los atributos:
+        - cuando hay 1, es todo
+        - cuando hay 2, es arriba-abajo, derecha-izquierda
+        - cuando hay 4, es arriba, derecha, abajo, izquierda
+    - el "*" se utiliza para referirse a "todo"
+        Por ejemplo: table * --> afecta a todo lo que este dentro de table, sin afectar directamente a table
+    - el ">" se utiliza para referirse al hijo directo
+        Por ejemplo: table tr > p --> todos los p que esten dentro de tr, pero solo de tr
+                     table tr > * --> todo lo que este dentro de tr y solo de tr
+Pseudoclases:
+    Se puede hacer cambios a los estados especiales de los elementos, colocando ":nombre-estado-especial" pegado a un lado del selector, a esto se lo llama pseudo-clase
+    - :hover ---> estado que se activa al pasar el cursor por encima
