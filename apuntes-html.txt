@@ -21,9 +21,18 @@ Etiquetas
     <strong> --> coloca lo que entre entre el medio en negrita
     <ul> --> unordened list, indica el sector donde estara la lista desordenada
     <li> --> list item, elemento de la lista
-    <link> --> conecta el documento con otro recurso
+        <link> --> conecta el documento con otro recurso
     <img src="direccion-imagen"/> --> agrega una imagen al documento
     <div> --> se usa para dividir la pagina en sectores
+    <a> --> se utiliza para crear link, todo lo que este dentro se interpreta como uno
+    <form> --> marca el inicio y final de un formulario
+    <input> --> marca un tipo de entrada
+    <label> --> se usa para etiquetar elementos, darles un nombre, en los interfaz de usuario (inputs)
+    <textarea> --> un area donde el usuario puede escribir
+    <table> --> define el area donde habra una tabla
+        <tr> --> (table row) fila de la tabla
+        <td> --> celda de la tabla con datos, se coloca dentro de <tr> y va agregandole columnas
+        <th> --> celda interpretada como encabezado, titulo
 Atributos
     - href="link" --> se usa para colocar la direccion de donde se va a tomar la informacion
     - rel="nombre" --> indica al navegador a que hace referencia el archivo
