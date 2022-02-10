@@ -1,0 +1,16 @@
+Paginas:
+    Inicio:
+        Horario de las clases dirigidas
+
+    Instalaciones:
+        Fotos del gimnasio
+        Lista de equipamiento
+
+    Precios:
+        Precio segun edad
+        Precio segun horario
+    
+    Contacto:
+        Formulario de contacto 
+
+La pagina debe tener un encabezado 

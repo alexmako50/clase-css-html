@@ -20,7 +20,7 @@ Atributos, propiedades
     letter-spacing: "cantidad" --> es el espaciado entre las letras
     font-style: "tipo-ya-definido (italic=cursiva)" --> afecta al estilo de la fuente
     font-family: "tipo-ya-definido (serif)" --> cambia el tipo de letras
-    background: "color o codigo hexadecimal" --> color del fondo
+    background-color: "color o codigo hexadecimal" --> color del fondo
     padding: "cantidad" --> margen interior
     float: "left o right" --> ubica los elementos uno al lado del otro, de izquierda a derecha o al reves
     overflow: hidden --> se utiliza para que el elemento padre contenga bien a los hijos, en caso de que no lo haga

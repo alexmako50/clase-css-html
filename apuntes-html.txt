@@ -22,6 +22,7 @@ Etiquetas
     <ul> --> unordened list, indica el sector donde estara la lista desordenada
     <li> --> list item, elemento de la lista
         <link> --> conecta el documento con otro recurso
+            <link href="nombre-archivo" rel="stylesheet"> --> conecta con css
     <img src="direccion-imagen"/> --> agrega una imagen al documento
     <div> --> se usa para dividir la pagina en sectores
     <a> --> se utiliza para crear link, todo lo que este dentro se interpreta como uno
